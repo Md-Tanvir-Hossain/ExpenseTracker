@@ -46,3 +46,149 @@ body{
     cursor: pointer;
     
 }
+
+.date-picker{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.export-btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.main-content{
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;  
+    background-color: #a92828ed;
+}
+
+
+
+.dashboard-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 350px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+   
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.card-menu{
+    background: none;
+    border: none;
+    color: #9ca3af;
+}
+
+.amount{
+
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+
+.change{
+    font-size: 0.875rem;
+    color: rgb(102, 189, 102);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    
+}
+
+.my-card{
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    color: #ffff;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card-chip{
+    width: 32px;
+    height: 24px;
+    background: #fbbf24;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+.card-chip::after{
+    content: '';
+    background: #9c0606;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    border-radius: 2px;
+}
+
+
+.card-number{
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-logo{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: -8px;
+    
+}
+
+.card-logo-circle{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+}
+
+.logo-red{
+    background: #db1d1d;
+}
+.logo-orange{
+    background: #fec21b;
+    margin-left: -8px;
+}
+
+
